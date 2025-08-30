@@ -1,0 +1,55 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(135deg, #ffa2db, #ffffff); 
+    padding: 40px; 
+} 
+h2 { 
+    text-align: center; 
+    color: #333; 
+} 
+form { 
+    width: 420px; 
+    margin: auto; 
+    background: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 30px; /* padding diperbesar */ 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} 
+label { 
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 6px; /* kasih jarak antara label & input */ 
+} 
+input[type="text"], 
+input[type="date"], 
+select { 
+    width: 100%; 
+    padding: 10px; /* input lebih lega */ 
+    margin-bottom: 18px; /* jarak antar elemen lebih besar */ 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    box-sizing: border-box; /* biar width tetap rapi */ 
+} 
+input[type="radio"] { 
+    margin-right: 5px; 
+} 
+.radio-group { 
+    margin-bottom: 18px; /* jarak bawah radio */ 
+    display: flex; 
+    gap: 15px; 
+    align-items: center; 
+} 
+input[type="submit"] { 
+    width: 100%; 
+    padding: 12px; 
+    background: #0e0c66; 
+    border: none; 
+    color: white; 
+    font-size: 16px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+} 
+input[type="submit"]:hover { 
+    background: blue; 
+}
